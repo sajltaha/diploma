@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Johnathan Demario",
+    "profession": "Founder",
+    "description": "In velit auctor non auctor in. Id pellentesque facilisis at lectus sed in sit tellus mauris.",
+    "img": "./img/team1.svg"
+  },
+  {
+    "name": "Bryan Machado",
+    "profession": "Chef",
+    "description": "Duis sed ut dolor viverra porttitor semper et faucibus facilisis. Hac maecenas rhoncus.",
+    "img": "./img/team2.svg"
+  },
+  {
+    "name": "Adam Joseph",
+    "profession": "Chef",
+    "description": "Faucibus sed vitae dui justo duis in. Egestas ipsum ut a elementum at laoreet at quam vitae.",
+    "img": "./img/team3.svg"
+  },
+  {
+    "name": "Pat Desque",
+    "profession": "Chef",
+    "description": "Molestie viverra mattis nisl vitae orci feugiat in. Aliquet quis orci turpis aliquet.",
+    "img": "./img/team4.svg"
+  }
+]

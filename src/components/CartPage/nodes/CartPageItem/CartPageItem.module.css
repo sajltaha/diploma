@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px 25px;
+  border-radius: 10px;
+  align-items: center;
+  gap: 25px;
+}
+.card_info_name {
+  color: #2d1312;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "ABeeZee", sans-serif;
+}
+.card_info_price {
+  color: #2d1312;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  font-family: "Mulish", sans-serif;
+}
+.card_info {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 200px;
+}
+.card_input {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.card_input input {
+  padding: 10px;
+  width: 60px;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.card_input button {
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.card_input button:hover {
+  transform: scale(1.15);
+}
+.card_delete {
+  cursor: pointer;
+}
+.card_delete:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+}

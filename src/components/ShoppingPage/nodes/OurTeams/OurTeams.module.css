@@ -1,0 +1,110 @@
+.teams_container {
+  padding: 70px 0;
+  background: #f0e9dd;
+  display: flex;
+  justify-content: center;
+}
+.teams_content {
+  display: flex;
+  flex-direction: column;
+}
+.teams_content_welcome {
+  width: 100%;
+  display: flex;
+}
+.teams_content_welcome_title {
+  color: #2d1312;
+  font-size: 64px;
+  line-height: 64px;
+  font-family: "Abhaya Libre", serif;
+}
+.teams_content_welcome_subtitle {
+  color: #2d1312;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 160%;
+}
+.teams_content_cards {
+  display: flex;
+}
+.worker_card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+  width: 290px;
+  color: #2d1312;
+  transition: 0.3s;
+}
+.worker_card:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.worker_name {
+  font-family: "ABeeZee", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 24px;
+}
+.worker_profession {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 16px;
+}
+.worker_description {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+  .teams_content {
+    gap: 34px;
+    width: 290px;
+  }
+  .teams_content_welcome {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+  .teams_content_cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 75px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .teams_content {
+    gap: 74px;
+    width: 650px;
+  }
+  .teams_content_welcome {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+  .teams_content_cards {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 65px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .teams_content {
+    gap: 114px;
+    width: 1280px;
+  }
+  .teams_content_welcome {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .teams_content_cards {
+    justify-content: space-between;
+  }
+}

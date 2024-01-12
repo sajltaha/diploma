@@ -1,0 +1,388 @@
+[
+  {
+    "id": 1,
+    "name": "Margherita",
+    "toppings": ["tomato sauce", "mozzarella", "basil"],
+    "price": 10.99,
+    "description": "Classic Margherita pizza with a perfect blend of tomato sauce, mozzarella, and fresh basil leaves.",
+    "img": "https://www.hearthandfirepizza.com/cdn/shop/products/product-beauty-the-margherita_1500x.png?v=1656423819"
+  },
+  {
+    "id": 2,
+    "name": "Pepperoni",
+    "toppings": ["tomato sauce", "mozzarella", "pepperoni"],
+    "price": 12.99,
+    "description": "Indulge in the savory goodness of Pepperoni pizza featuring zesty tomato sauce, melted mozzarella, and spicy pepperoni slices.",
+    "img": "https://png.pngtree.com/png-clipart/20231111/original/pngtree-sizzle-and-cheese-the-art-of-pepperoni-pizza-bliss-png-image_13534969.png"
+  },
+  {
+    "id": 3,
+    "name": "Vegetarian",
+    "toppings": [
+      "tomato sauce",
+      "mozzarella",
+      "bell peppers",
+      "olives",
+      "mushrooms"
+    ],
+    "price": 11.99,
+    "description": "A delightful Vegetarian pizza topped with colorful bell peppers, olives, and savory mushrooms on a bed of mozzarella and tomato sauce.",
+    "img": "https://png.pngtree.com/png-clipart/20231003/original/pngtree-pizza-with-vegetable-png-image_13247516.png"
+  },
+  {
+    "id": 4,
+    "name": "Hawaiian",
+    "toppings": ["tomato sauce", "mozzarella", "ham", "pineapple"],
+    "price": 13.99,
+    "description": "Escape to the tropics with the Hawaiian pizza featuring succulent ham, sweet pineapple, and gooey mozzarella.",
+    "img": "https://admin.screaminsicilian.com/wp-content/uploads/2021/04/product-overhead_SS_Hawaiian.png"
+  },
+  {
+    "id": 5,
+    "name": "BBQ Chicken",
+    "toppings": ["BBQ sauce", "mozzarella", "chicken", "red onion", "cilantro"],
+    "price": 14.99,
+    "description": "Savor the smoky flavor of BBQ Chicken pizza with tangy BBQ sauce, grilled chicken, red onion, and fresh cilantro.",
+    "img": "https://static.vecteezy.com/system/resources/previews/024/108/111/original/tasty-bbq-chicken-cheese-pizza-isolated-on-transparent-background-png.png"
+  },
+  {
+    "id": 6,
+    "name": "Mushroom Delight",
+    "toppings": ["cream sauce", "mozzarella", "mushrooms", "spinach", "garlic"],
+    "price": 12.49,
+    "description": "Indulge in the rich and creamy Mushroom Delight pizza, featuring cream sauce, mozzarella, mushrooms, spinach, and garlic.",
+    "img": "https://olo-images-live.imgix.net/e7/e7e5f1dd67464602b2acc9ac9d043623.png?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=6bce1277aa3da979d4932a5ce77fb2f9"
+  },
+  {
+    "id": 7,
+    "name": "Classic Supreme",
+    "toppings": [
+      "tomato sauce",
+      "mozzarella",
+      "pepperoni",
+      "sausage",
+      "green peppers",
+      "onions",
+      "black olives"
+    ],
+    "price": 15.99,
+    "description": "The Classic Supreme pizza is a flavorful combination of tomato sauce, mozzarella, pepperoni, sausage, green peppers, onions, and black olives.",
+    "img": "https://assets-global.website-files.com/63456fcaf05b46ced94c98d7/6389103ab64a2353ca775a88_image-16-menu-pizzaplanet-template.png"
+  },
+  {
+    "id": 8,
+    "name": "Veggie Feast",
+    "toppings": [
+      "tomato sauce",
+      "mozzarella",
+      "bell peppers",
+      "red onion",
+      "black olives",
+      "tomatoes"
+    ],
+    "price": 13.49,
+    "description": "Experience a Veggie Feast with a variety of colorful toppings, including bell peppers, red onion, black olives, and tomatoes.",
+    "img": "https://pngimg.com/uploads/pizza/pizza_PNG44092.png"
+  },
+  {
+    "id": 9,
+    "name": "Spicy Chicken Ranch",
+    "toppings": [
+      "ranch sauce",
+      "mozzarella",
+      "spicy chicken",
+      "jalapeños",
+      "red onion"
+    ],
+    "price": 14.79,
+    "description": "Kick up the heat with Spicy Chicken Ranch pizza, featuring creamy ranch sauce, mozzarella, spicy chicken, jalapeños, and red onion.",
+    "img": "https://pureorganiccafe.com/wp-content/uploads/2023/01/Organic-Grilled-Chicken-Pizza.png"
+  },
+  {
+    "id": 10,
+    "name": "Pesto Delight",
+    "toppings": [
+      "pesto sauce",
+      "mozzarella",
+      "cherry tomatoes",
+      "artichokes",
+      "feta"
+    ],
+    "price": 13.99,
+    "description": "Delight your taste buds with the Pesto Delight pizza, showcasing pesto sauce, mozzarella, cherry tomatoes, artichokes, and feta.",
+    "img": "https://nypizzapatrol.com/wp-content/uploads/2017/03/Pesto-600x600.png"
+  },
+  {
+    "id": 11,
+    "name": "Buffalo Chicken",
+    "toppings": [
+      "buffalo sauce",
+      "mozzarella",
+      "chicken",
+      "red onion",
+      "blue cheese"
+    ],
+    "price": 14.99,
+    "description": "Experience the bold flavors of Buffalo Chicken pizza, featuring buffalo sauce, mozzarella, chicken, red onion, and blue cheese.",
+    "img": "https://pizzamiamiami.com/wp-content/uploads/2020/07/buffalo-chicken.png"
+  },
+  {
+    "id": 12,
+    "name": "White Garlic",
+    "toppings": [
+      "white garlic sauce",
+      "mozzarella",
+      "spinach",
+      "artichokes",
+      "feta"
+    ],
+    "price": 13.49,
+    "description": "Savor the richness of White Garlic pizza with creamy white garlic sauce, mozzarella, spinach, artichokes, and feta.",
+    "img": "https://pizzulu.com/cdn/shop/products/IMG_7490.png?v=1642438829"
+  },
+  {
+    "id": 13,
+    "name": "Mexican Fiesta",
+    "toppings": [
+      "salsa",
+      "mozzarella",
+      "ground beef",
+      "jalapeños",
+      "red onion",
+      "tomatoes"
+    ],
+    "price": 15.29,
+    "description": "Bring the party to your taste buds with Mexican Fiesta pizza, featuring salsa, mozzarella, ground beef, jalapeños, red onion, and tomatoes.",
+    "img": "https://portpizza.ca/wp-content/uploads/2022/05/Mexican-Fiesta.png"
+  },
+  {
+    "id": 14,
+    "name": "Mediterranean",
+    "toppings": [
+      "tomato sauce",
+      "mozzarella",
+      "kalamata olives",
+      "feta",
+      "red onion",
+      "tomatoes"
+    ],
+    "price": 14.79,
+    "description": "Embark on a culinary journey with the Mediterranean pizza, adorned with tomato sauce, mozzarella, kalamata olives, feta, red onion, and tomatoes.",
+    "img": "https://chloeveganfoods.com/wp-content/uploads/2020/04/MED.png"
+  },
+  {
+    "id": 15,
+    "name": "Bacon Lover's",
+    "toppings": [
+      "tomato sauce",
+      "mozzarella",
+      "bacon",
+      "red onion",
+      "tomatoes"
+    ],
+    "price": 13.99,
+    "description": "For bacon enthusiasts, the Bacon Lover's pizza is a mouthwatering delight with tomato sauce, mozzarella, bacon, red onion, and tomatoes.",
+    "img": "https://www.newyorkpizza.ee/wp-content/uploads/2016/06/Meat-Lovers.png"
+  },
+  {
+    "id": 16,
+    "name": "Capricciosa",
+    "toppings": [
+      "tomato sauce",
+      "mozzarella",
+      "ham",
+      "mushrooms",
+      "black olives",
+      "artichokes"
+    ],
+    "price": 14.49,
+    "description": "Savor the authentic flavors of Capricciosa pizza with tomato sauce, mozzarella, ham, mushrooms, black olives, and artichokes.",
+    "img": "https://www.uptownbeer.com/wp-content/uploads/2017/03/4.png"
+  },
+  {
+    "id": 17,
+    "name": "Spinach and Feta",
+    "toppings": [
+      "tomato sauce",
+      "mozzarella",
+      "spinach",
+      "feta",
+      "red onion",
+      "garlic"
+    ],
+    "price": 13.79,
+    "description": "Experience the perfect blend of freshness and flavor with Spinach and Feta pizza, featuring tomato sauce, mozzarella, spinach, feta, red onion, and garlic.",
+    "img": "https://static.jow.fr/550x550/recipes/oiVmWGWutltFYQ.png"
+  },
+  {
+    "id": 18,
+    "name": "Supreme Deluxe",
+    "toppings": [
+      "tomato sauce",
+      "mozzarella",
+      "pepperoni",
+      "sausage",
+      "bell peppers",
+      "onions",
+      "black olives",
+      "mushrooms"
+    ],
+    "price": 16.49,
+    "description": "Indulge in the ultimate pizza experience with Supreme Deluxe, boasting a medley of tomato sauce, mozzarella, pepperoni, sausage, bell peppers, onions, black olives, and mushrooms.",
+    "img": "https://admin.screaminsicilian.com/wp-content/uploads/2022/05/SS-Deluxe_top.png"
+  },
+  {
+    "id": 19,
+    "name": "Truffle Mushroom",
+    "toppings": [
+      "truffle oil",
+      "mozzarella",
+      "mushrooms",
+      "caramelized onions",
+      "parmesan"
+    ],
+    "price": 15.99,
+    "description": "Elevate your taste buds with the luxurious Truffle Mushroom pizza, featuring truffle oil, mozzarella, mushrooms, caramelized onions, and parmesan.",
+    "img": "https://betterfrozenpizza.com/cdn/shop/products/SB2120VS-GA_Fresh_Plushroom_0050_2048x2048.png?v=1625784237"
+  },
+  {
+    "id": 20,
+    "name": "Chicken Alfredo",
+    "toppings": [
+      "alfredo sauce",
+      "mozzarella",
+      "chicken",
+      "broccoli",
+      "parmesan"
+    ],
+    "price": 14.79,
+    "description": "Experience the creamy goodness of Chicken Alfredo pizza, showcasing alfredo sauce, mozzarella, chicken, broccoli, and parmesan.",
+    "img": "https://pizzamiamiami.com/wp-content/uploads/2020/07/chicken-alfredo.png"
+  },
+  {
+    "id": 21,
+    "name": "Greek Gyro",
+    "toppings": [
+      "tzatziki sauce",
+      "mozzarella",
+      "gyro meat",
+      "red onion",
+      "tomatoes",
+      "feta"
+    ],
+    "price": 15.29,
+    "description": "Take your taste buds on a journey with the Greek Gyro pizza, featuring tzatziki sauce, mozzarella, gyro meat, red onion, tomatoes, and feta.",
+    "img": "https://images.newyorkpizza.nl/Products/Original/Californian-8043.png"
+  },
+  {
+    "id": 22,
+    "name": "Shrimp Scampi",
+    "toppings": [
+      "garlic butter sauce",
+      "mozzarella",
+      "shrimp",
+      "tomatoes",
+      "parsley"
+    ],
+    "price": 16.49,
+    "description": "Delight in the flavors of the sea with Shrimp Scampi pizza, adorned with garlic butter sauce, mozzarella, shrimp, tomatoes, and parsley.",
+    "img": "https://static.vecteezy.com/system/resources/previews/024/725/083/non_2x/pizza-pizza-pizza-with-transparent-background-ai-generated-free-png.png"
+  },
+  {
+    "id": 23,
+    "name": "Barbecue Bacon",
+    "toppings": ["BBQ sauce", "mozzarella", "bacon", "red onion", "cilantro"],
+    "price": 14.99,
+    "description": "Satisfy your barbecue cravings with Barbecue Bacon pizza, featuring BBQ sauce, mozzarella, bacon, red onion, and cilantro.",
+    "img": "https://images.newyorkpizza.nl/Products/Original/BBQ_Bacon-8045.png"
+  },
+  {
+    "id": 24,
+    "name": "Pineapple Paradise",
+    "toppings": ["tomato sauce", "mozzarella", "ham", "pineapple", "jalapeños"],
+    "price": 13.79,
+    "description": "Transport your taste buds to a tropical paradise with Pineapple Paradise pizza, featuring tomato sauce, mozzarella, ham, pineapple, and jalapeños.",
+    "img": "https://png.pngtree.com/png-clipart/20231111/original/pngtree-dive-into-the-pineapple-paradise-of-hawaiian-pizza-png-image_13534949.png"
+  },
+  {
+    "id": 25,
+    "name": "Artichoke Delight",
+    "toppings": [
+      "white garlic sauce",
+      "mozzarella",
+      "artichokes",
+      "spinach",
+      "feta"
+    ],
+    "price": 14.49,
+    "description": "Indulge in the Artichoke Delight pizza, boasting white garlic sauce, mozzarella, artichokes, spinach, and feta for a truly delightful experience.",
+    "img": "https://pizzulu.com/cdn/shop/products/IMG_6985_503x503.png?v=1642438883"
+  },
+  {
+    "id": 26,
+    "name": "Taco Fiesta",
+    "toppings": [
+      "salsa",
+      "mozzarella",
+      "ground beef",
+      "lettuce",
+      "tomatoes",
+      "cheddar"
+    ],
+    "price": 15.29,
+    "description": "Spice up your taste buds with Taco Fiesta pizza, featuring salsa, mozzarella, seasoned ground beef, crisp lettuce, tomatoes, and cheddar cheese.",
+    "img": "https://napolipizzalv.com/wp-content/uploads/2019/07/DSC_0069-min.png"
+  },
+  {
+    "id": 27,
+    "name": "Pesto Chicken",
+    "toppings": [
+      "pesto sauce",
+      "mozzarella",
+      "chicken",
+      "sun-dried tomatoes",
+      "artichokes"
+    ],
+    "price": 14.79,
+    "description": "Elevate your pizza experience with Pesto Chicken, featuring pesto sauce, mozzarella, chicken, sun-dried tomatoes, and artichokes.",
+    "img": "https://www.culinaryspecialties.net/wp-content/uploads/2021/04/12-entree-pizza-pesto-chicken-03.png"
+  },
+  {
+    "id": 28,
+    "name": "Seafood Delight",
+    "toppings": [
+      "garlic butter sauce",
+      "mozzarella",
+      "shrimp",
+      "scallops",
+      "clams",
+      "mussels"
+    ],
+    "price": 16.99,
+    "description": "Dive into a Seafood Delight pizza, crafted with garlic butter sauce, mozzarella, shrimp, scallops, clams, and mussels for a taste of the ocean.",
+    "img": "https://static.vecteezy.com/system/resources/previews/024/725/135/non_2x/pizza-pizza-pizza-with-transparent-background-ai-generated-free-png.png"
+  },
+  {
+    "id": 29,
+    "name": "Four Cheese",
+    "toppings": ["tomato sauce", "mozzarella", "cheddar", "parmesan", "feta"],
+    "price": 15.99,
+    "description": "Experience the richness of Four Cheese pizza, featuring a blend of tomato sauce, mozzarella, cheddar, parmesan, and feta for a cheese lover's delight.",
+    "img": "https://pizzulu.com/cdn/shop/products/IMG_6806.png?v=1642438512"
+  },
+  {
+    "id": 30,
+    "name": "Meat Lovers",
+    "toppings": [
+      "tomato sauce",
+      "mozzarella",
+      "pepperoni",
+      "sausage",
+      "bacon",
+      "ham"
+    ],
+    "price": 17.99,
+    "description": "Indulge in the ultimate meaty feast with Meat Lovers pizza, featuring tomato sauce, mozzarella, pepperoni, sausage, bacon, and ham.",
+    "img": "https://napolipizzalv.com/wp-content/uploads/2019/10/DSC_0003-min.png"
+  }
+]

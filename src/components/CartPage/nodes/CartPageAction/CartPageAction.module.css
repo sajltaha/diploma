@@ -1,0 +1,103 @@
+.action_button {
+  width: 100%;
+  border: none;
+  background: black;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.action_button:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+}
+.action_input {
+  width: 100%;
+  color: rgba(0, 0, 0, 0.6);
+  border: 2px solid #f1d5bb;
+  border-radius: 5px;
+  outline: none;
+}
+.action_title {
+  font-weight: 400;
+}
+.action_subtitle {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+}
+.cart_content_action {
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  height: fit-content;
+}
+.cart_content_action_payment {
+  background: #f1d5bb;
+  border-radius: 10px 10px 0 0;
+  padding: 22px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  height: fit-content;
+}
+.cart_content_action_promo {
+  border: 2px solid #f1d5bb;
+  padding: 22px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  border-radius: 0 0 10px 10px;
+  height: fit-content;
+}
+
+@media screen and (min-width: 0) and (max-width: 767px) {
+  .action_input {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .action_button {
+    padding: 15px 0;
+    font-size: 20px;
+  }
+  .action_title {
+    font-size: 30px;
+  }
+  .action_subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .action_input {
+    padding: 15px;
+    font-size: 25px;
+  }
+  .action_button {
+    padding: 15px 0;
+    font-size: 20px;
+  }
+  .action_title {
+    font-size: 35px;
+  }
+  .action_subtitle {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .action_input {
+    padding: 15px;
+    font-size: 25px;
+  }
+  .action_button {
+    padding: 15px 0;
+    font-size: 20px;
+  }
+  .action_title {
+    font-size: 35px;
+  }
+  .action_subtitle {
+    font-size: 25px;
+  }
+}
